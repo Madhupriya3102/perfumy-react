@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import Navbar from "./components/Navbar"
+import Search from "./components/search"
+import Product from "./components/product"
+import About from "./components/about"
+import Footer from "./components/footer"
+import Sidemenu from "./components/sidemenu"
+import {useState} from "react"
+function App(props){
+     const [sm,Setbar]=useState(false)
+    
+return(<>
+<Navbar name={sm} Host={Setbar}/>
+<Sidemenu name={sm} Host={Setbar}/>
+    <div>
+        
+    <Search></Search>
+    <Product></Product>
+    <About></About>
+    <Footer></Footer>
+  
     </div>
-  );
-}
+   
 
-export default App;
+
+    </>
+)
+}
+export default App
