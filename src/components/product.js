@@ -20,7 +20,7 @@ function Product(){
 </div>
 <div className="product">
         <img src={three} alt="three"/>
-          <p> Wood Extreme, Eau De Parfum, Long-lasting Perfume, 100ml</p>
+          <p> Del Wood Extreme, Eau De Parfum, Long-lasting Perfume, 100ml</p>
           <button>Buy now</button>
 </div>
 </div>
