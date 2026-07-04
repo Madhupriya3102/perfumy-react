@@ -216,7 +216,7 @@ text-decoration: underline;
    
 }
 img{
-   width:70%;
+   width:80%;
    height:150px;
     left:1px;
     padding: 2px 20px;
@@ -228,7 +228,7 @@ img:hover{
     border:1px solid rgb(34,13,10);
 }
 .product p{
-    display:block;
+    display:inline;
     flex-direction:column-reverse;
     align-items: flex-start;
     text-align: center;
