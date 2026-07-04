@@ -208,7 +208,7 @@ text-decoration: underline;
 }
 .product{
     margin-bottom: 10px;
-  display:block;
+  display:inline;
   align-items: center;
  
   padding: 30px 20px;
@@ -228,7 +228,7 @@ img:hover{
     border:1px solid rgb(34,13,10);
 }
 .product p{
-    display:inline;
+    display:block;
     flex-direction:column-reverse;
     align-items: flex-start;
     text-align: center;
