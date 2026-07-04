@@ -11,17 +11,17 @@ function Product(){
         <div class="product">
         <img src={one} alt="one"/>
           <p>Fogg Wood Extreme, Eau De Parfum, Long-lasting Perfume, 100ml</p>
-          <button>Buy now</button>
+          
 </div> 
 <div className="product">
         <img src={two} alt="two"/>
           <p>EVA Wood Extreme, Eau De Parfum, Long-lasting Perfume, 100ml</p>
-          <button>Buy now</button>
+          
 </div>
 <div className="product">
         <img src={three} alt="three"/>
           <p> Del Wood Extreme, Eau De Parfum, Long-lasting Perfume, 100ml</p>
-          <button>Buy now</button>
+         
 </div>
 </div>
   )
